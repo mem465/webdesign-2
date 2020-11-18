@@ -1,8 +1,11 @@
 7A5A2F<meta charset="UTF-8"><meta charset="UTF-8">@charset "UTF-8";
 
 container{
-	width: auto;
-	height: auto;
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
 }
 
 
@@ -18,9 +21,6 @@ container{
 	float: left;
 	margin-right: 20px;
 }
-.columns_2:last-of-type{
-	margin-right: 0;
-}
 
 .columns_3 {
 	width: 300px;
@@ -28,36 +28,7 @@ container{
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.columns_3:last-of-type{
-	margin-right: 0;
-}
 
-.columns_4 {
-	width: 220px;
-	float: left;
-	margin-right: 20px;
-}
-.columns_4:last-of-type{
-	margin-right: 0;
-}
-
-.columns_6 {
-	width: 140px;
-	float: left;
-	margin-right: 20px;
-}
-.columns_6:last-of-type{
-	margin-right: 0;
-}
-
-.columns_12 {
-	width: 60px;
-	float: left;
-	margin-right: 20px;
-}
-.columns_12:last-of-type{
-	margin-right: 0;
-}
 
 h1 {
 	font-size: 2.0em;
@@ -165,6 +136,18 @@ img{
 	display: block;
 }
 
+.section-head {
+	width: auto;
+	text-align: center;
+	float: center;
+}
+
+.section-subhead {
+	width:auto;
+	text-align: center;
+	float: center;
+}
+
 .hero {
 	width: auto;
 	height: 590px;
@@ -184,44 +167,44 @@ img{
 	
 }
 
+/*About*/
 .sec-2{
 	width: auto;
 	text-align: center; 
 	padding: 130px 0;
 	float: center;
 	background-color: #fff;
-	
 }
 
+
+/*History Then*/
 .sec-3 {
 	width: auto;
 	text-align: right;
 	background-image:url("images/country-guitar.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
-
+/*Now*/
 .sec-4 {
 	width: auto;
 	padding: 100px 0;
 	background-color: #fff;
 }
 
+/*rise of the stars*/
 .sec-5 {
-	width: 100%;
-	text-align: center; 
-	padding: 100px 0px;
-	background-color: #FFFFFF
+	width:100%;
+	background-color: #E0A455;
+	padding: 100px 0;
 }
-.sec-5 img{
-	width: 100%;
-	border-radius: 90% auto;
+.sec-5-subhead{
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-.sec-5-copy {
+.sec-5-copy{
 	text-align: left;
 	margin-bottom: 20px;
 }
-
