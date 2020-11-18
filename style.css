@@ -1,0 +1,227 @@
+7A5A2F<meta charset="UTF-8"><meta charset="UTF-8">@charset "UTF-8";
+
+container{
+	width: auto;
+	height: auto;
+}
+
+
+/* Simple Grid - 12 columns 60/20 */
+
+.columns_1 {
+	width: 940px;
+	float: left;
+}
+
+.columns_2 {
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+.columns_2:last-of-type{
+	margin-right: 0;
+}
+
+.columns_3 {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.columns_3:last-of-type{
+	margin-right: 0;
+}
+
+.columns_4 {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+.columns_4:last-of-type{
+	margin-right: 0;
+}
+
+.columns_6 {
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+.columns_6:last-of-type{
+	margin-right: 0;
+}
+
+.columns_12 {
+	width: 60px;
+	float: left;
+	margin-right: 20px;
+}
+.columns_12:last-of-type{
+	margin-right: 0;
+}
+
+h1 {
+	font-size: 2.0em;
+	margin-right: auto;
+	font-family: 'Intro Rust G Base Line';
+}
+
+h2{
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0 0 20px 0;
+	color: #45899C;
+	font-family: 'ginga>';
+}
+
+h3 {
+	font-size: .70em;
+	color:#45899C;
+	text-align: center;
+	font-family: 'ginga>';
+}
+
+h4 {
+	font-size: 1em;
+	color: #45899C;
+	text-align: center;
+	font-family: 'Kavivanar Regular';
+}
+
+h5 {
+	font-size: .85em;
+	margin: 0 0 20px 0;
+	color: #E64919;
+	font-family:'Kavivanar Regular';
+}
+
+h6 {
+	font-size: 1em;
+	color: #F8F6F5;
+	font-family: "Kavivanar Regular";
+}
+
+.small-text {
+	font-size: 0.80em;
+	line-height:1.2;
+}
+
+header {
+	width: 100%;
+	background-color: #7A5A2F;
+	position:fixed;
+	top:0;
+	z-index: 1000;
+}
+
+.logo {
+	width: 100px;
+	height: 15px;
+	float:left;	
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+nav {
+	float:center;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align:center;
+}
+
+nav li {
+	display: inline-block;
+	font-style: italic;
+	font-family: "Kavivanar Regular";
+	color: #E64919;
+	font-size: .6em;
+	font-weight:700;
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	margin-left: 20px;
+	cursor: pointer;
+	
+}
+
+nav li a:link {
+	color: #E64919;
+}
+
+nav li a:visted {
+	color: #E64919;
+}
+
+nav li a:hover {
+	color:#E64919;
+}
+
+nav li a:active {
+	color: #E64919;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+
+.hero {
+	width: auto;
+	height: 590px;
+	text-align: right;
+	color: #fff;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+	
+.sec-1 {
+	width:auto;
+	opacity: 50%;
+	background-repeat: no-repeat;
+	background-size: auto;
+	
+}
+
+.sec-2{
+	width: auto;
+	text-align: center; 
+	padding: 130px 0;
+	float: center;
+	background-color: #fff;
+	
+}
+
+.sec-3 {
+	width: auto;
+	text-align: right;
+	background-image:url("images/country-guitar.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.sec-4 {
+	width: auto;
+	padding: 100px 0;
+	background-color: #fff;
+}
+
+.sec-5 {
+	width: 100%;
+	text-align: center; 
+	padding: 100px 0px;
+	background-color: #FFFFFF
+}
+.sec-5 img{
+	width: 100%;
+	border-radius: 90% auto;
+}
+
+.sec-5-copy {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
