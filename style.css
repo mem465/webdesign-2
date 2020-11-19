@@ -1,6 +1,16 @@
-7A5A2F<meta charset="UTF-8"><meta charset="UTF-8">@charset "UTF-8";
 
-container{
+@font-face {
+	font-family: 'Ginga';
+	src:url('fonts/ginga-r09p-webfont.woff') format('woff');
+	src:url('fonts/ginga-r09p-webfont.woff2') format('woff2');
+}
+
+@font-face {
+	src:url("https://use.typekit.net/zin8nut.css");
+} 
+
+
+.container {
 	width: 940px;
 	display: block;
 	margin: 0 auto;
@@ -31,49 +41,51 @@ container{
 
 
 h1 {
-	font-size: 2.0em;
-	margin-right: auto;
-	font-family: 'Intro Rust G Base Line';
+	font-family: pulpo-rust-50, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:2.8em;
 }
 
 h2{
-	font-size: 1.5em;
+	font-size: 5em;
 	text-align: center;
 	margin: 0 0 20px 0;
 	color: #45899C;
-	font-family: 'ginga>';
+	font-family: 'Ginga';
 }
 
 h3 {
-	font-size: .70em;
+	font-size: 3.7em;
 	color:#45899C;
 	text-align: center;
-	font-family: 'ginga>';
+	font-family: 'Ginga';
 }
 
 h4 {
 	font-size: 1em;
 	color: #45899C;
 	text-align: center;
-	font-family: 'Kavivanar Regular';
+	font-family: 'Kavivanar', cursive;
 }
 
 h5 {
 	font-size: .85em;
 	margin: 0 0 20px 0;
 	color: #E64919;
-	font-family:'Kavivanar Regular';
+	font-family: 'Kavivanar', cursive;
 }
 
 h6 {
 	font-size: 1em;
 	color: #F8F6F5;
-	font-family: "Kavivanar Regular";
+	font-family: 'Kavivanar', cursive;
 }
 
 .small-text {
-	font-size: 0.80em;
-	line-height:1.2;
+	font-size: 1em;
+	font-family:'Ginga';
+	color: #45899C;
 }
 
 header {
@@ -149,13 +161,14 @@ img{
 }
 
 .hero {
-	width: auto;
 	height: 590px;
 	text-align: right;
 	color: #fff;
-	float: left;
+	padding:100px 150px 0 0;
+	background-image:url("images/guitars.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	
 	
 }
 	
@@ -163,7 +176,7 @@ img{
 	width:auto;
 	opacity: 50%;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: cover;
 	
 }
 
@@ -182,7 +195,7 @@ img{
 	width: auto;
 	text-align: right;
 	background-image:url("images/country-guitar.jpg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -201,10 +214,27 @@ img{
 }
 .sec-5-subhead{
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .sec-5-copy{
 	text-align: left;
 	margin-bottom: 20px;
 }
+
+/*rise of the stars cont*/
+.sec-6 {
+	width:100%;
+	background-color: #fff;
+	padding: 100px 0;
+}
+.sec-6-subhead{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.sec-6-copy{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
