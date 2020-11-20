@@ -10,12 +10,25 @@
 } 
 
 
+html {
+	Box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit; 
+}
+
+body {
+	font-size: 100%;
+	line-height: 2em;
+	text-align: left;
+}
+
 .container {
 	width: 940px;
 	display: block;
 	margin: 0 auto;
-	overflow: hidden;
-	clear: both;
+	overflow:hidden;
+	
 }
 
 
@@ -28,8 +41,8 @@
 
 .columns_2 {
 	width: 460px;
-	float: left;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .columns_3 {
@@ -83,7 +96,7 @@ h6 {
 }
 
 .small-text {
-	font-size: 1em;
+	font-size: 2em;
 	font-family:'Ginga';
 	color: #45899C;
 }
@@ -97,15 +110,15 @@ header {
 }
 
 .logo {
-	width: 100px;
-	height: 15px;
+	width: 190px;
+	height: 10px;
 	float:left;	
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 20px;
 }
 
 nav {
-	float:center;
+	float:right;
 }
 
 nav ul {
@@ -118,7 +131,7 @@ nav li {
 	font-style: italic;
 	font-family: "Kavivanar Regular";
 	color: #E64919;
-	font-size: .6em;
+	font-size: .7em;
 	font-weight:700;
 	text-transform: uppercase;
 	letter-spacing: 0em;
@@ -151,6 +164,7 @@ img{
 .section-head {
 	width: auto;
 	text-align: center;
+	line-height: 1em;
 	float: center;
 }
 
@@ -158,6 +172,7 @@ img{
 	width:auto;
 	text-align: center;
 	float: center;
+	line-height: 0;
 }
 
 .hero {
@@ -169,14 +184,14 @@ img{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	
-	
 }
 	
 .sec-1 {
 	width:auto;
 	opacity: 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	padding: 0 0 20px 0;
 	
 }
 
@@ -184,7 +199,7 @@ img{
 .sec-2{
 	width: auto;
 	text-align: center; 
-	padding: 130px 0;
+	padding-bottom: 30px;
 	float: center;
 	background-color: #fff;
 }
@@ -202,15 +217,20 @@ img{
 /*Now*/
 .sec-4 {
 	width: auto;
-	padding: 100px 0;
+	padding: 0 10px;
 	background-color: #fff;
+	
+}
+.sec-4 img {
+	width: 100%;
+	border-radius: auto;
 }
 
 /*rise of the stars*/
 .sec-5 {
 	width:100%;
+	height: auto;
 	background-color: #E0A455;
-	padding: 100px 0;
 }
 .sec-5-subhead{
 	text-align: center;
@@ -236,5 +256,10 @@ img{
 .sec-6-copy{
 	text-align: left;
 	margin-bottom: 20px;
+}
+
+.sec-7 {
+	background-color: #E0A455;
+	height:
 }
 
