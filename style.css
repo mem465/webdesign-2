@@ -68,7 +68,6 @@ h1 {
 
 h2{
 	font-size: 2em;
-	text-align: center;
 	margin: 0 0 20px 0;
 	color: #45899C;
 	font-family: pulpo-rust-50, serif;
@@ -284,12 +283,14 @@ img{
 	padding: 15px 0 15px 0;
 }
 
+/*more information*/
 .sec-8 {
 	width: 100%;
 	background-color: #FFFFFF;
 }
 .sec-8-form input[type="text"],
 .sec-8-form input[type="email"],
+.sec-8-form input[type="comments"]
 .sec-8-form textarea,
 .sec-8-form select {
 	width: 100%;
@@ -300,5 +301,28 @@ img{
 	color: #E2E2E2;
 }
 
-    
+.sec-8-form comments{
+	height: 100px;
+}
 
+.sec-9 {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #7A5A2F;
+}
+
+.footer-head {
+	font-size: 1.25em;
+	font-family: pulpo-rust-50, serif;
+	margin-top:5px;
+	margin-bottom: 15px;
+	text-align: left;
+	color: #45899C;
+}
+
+.sec-9 p{
+	font-size: 1em;
+	color: #F8F6F5;
+	font-family: 'Kavivanar', cursive;
+}
