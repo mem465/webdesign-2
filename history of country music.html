@@ -10,6 +10,10 @@
 	<link rel="stylesheet" href="https://use.typekit.net/zin8nut.css">
 	
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
+	
+	
+	<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/429feaf492.js" crossorigin="anonymous"></script>
 
 
 <body>
@@ -23,11 +27,12 @@
       </div>
  <nav>
    <ul class="navigation">
-     <li><a href="#">Home</a></li>
-     <li><a href="#">About</a></li>
-     <li><a href="#">History</a></li>
-     <li><a href="#">Artists</a></li>
-     <li><a href="#">Support</a></li>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#history">History</a></li>
+     <li><a href="#artists">Artists</a></li>
+	 <li><a href="#visit">Visit</a></li>
+     <li><a href="#support">Support</a></li>
      
    </ul>
  </nav>
@@ -49,14 +54,14 @@
 	</div><!--end container-->
   </section> <!--end section 1-->
 
-<section class="sec-2">
+<section class="sec-2" id="about">
 	<div class="container">
 	<h2 class="section-head">About</h2>
 	<h5><p>Country (also called country and western) is a genre of popular music that takes its roots from genres such as blues and old-time music, and various types of American folk music including Appalachian, Cajun, and the cowboy Western music styles of Red Dirt, New Mexico, Texas country, and Tejano.</p></h5>
 	</div> <!--end container-->
 </section> <!--end section 2-->
 
-<section class="sec-3">
+<section class="sec-3" id="history">
   <h2 class="section-head">History (Then...)</h2>
   <div class="container">
     
@@ -88,7 +93,7 @@
   	
 </section> <!--end section 4-->
 	
-	<section class="sec-5">
+	<section class="sec-5" id="artists">
 		<h2 class="section-head">Rise of the Stars</h2>
 		<h3 class="section-subhead">1900's</h3>
 		<div class="container">
@@ -157,7 +162,7 @@
 		</div> <!--end container-->
 	</section> <!--end of sec-6-->
 	
-	<section class="sec-7">
+	<section class="sec-7" id="visit">
 	<div class="container">
 		<h2 class="section-head">Places to Visit</h2>
 		<div class="row">
@@ -178,7 +183,7 @@
 		</div><!--end container-->
 	</section> <!--end sec-7-->
 	
-	<section class="sec-8">
+	<section class="sec-8" id="support">
 		<div class="container">
 		<h2 class="section-head">More Information</h2>
 		<div class="flex-row">
@@ -186,17 +191,17 @@
 		<form class="sec-8-form" action="web_form.php" method="post">
 			<h5><input id="name" type="text" name="name" placeholder="Your Full Name"></h5>
 			<h5><input id="email" type="text" name="email" placeholder="Email"></h5>
-			<div align="right">
-		<input class="solid-submit-btn" type="Submit" name="submit" value="Submit">
-				</div> <!--end align-->
+			
 			
 		</form> <!--end form-->	
 		</div> <!--end columns-->
 		
 		<div class="columns_2">
 			<form class="sec-8-form" action="web_form.php" method="post">
-			<h5> <input id="comments" type="text" name="comments" placeholder="Comments"></h5>
-				
+			<h5> <textarea id="comments" type="text" name="comments" placeholder="Comments"></textarea></h5>
+			<div align="right">
+		<input class="solid-submit-btn" type="Submit" name="submit" value="Submit">
+				</div> <!--end align-->	
 			</form> <!--end form-->
 			</div> <!--end columns-->
 			
@@ -208,18 +213,18 @@
 		<div class="container">
 			<div class="footer-head">History of Country Music</div>
 		<div class="columns_3">
-			<p>Navigation</p>	
-			<p>About</p>
+			<p><a href="home">Home</a></p>
+			<p><a href="#about">About</a></p>
 			</div><!--end columns_3-->
 			
 		<div class="columns_3">
-			<p>History</p>
-			<p>Artists</p>
+			<p><a href="#history">History</a></p>
+			<p><a href="#artists">Artists</a></p>
 		</div><!--end columns_3-->
 			
 		<div class="columns_3">
-			<p>Visit</p>
-			<p>Contact Info</p>
+		<p><a href="#visit">Visit</a></p>
+		<p><a href="#support">Contact</a></p>
 			</div> <!--end columns_3-->	
 		
 		</div> <!--end container-->
