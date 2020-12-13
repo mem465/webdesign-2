@@ -104,8 +104,25 @@ h6 {
 .small-text {
 	font-size: .9em;
 	font-family:pulpo-rust-50, serif;
-	color: #45899C;
+	color: #fff;
 }
+
+.btn{
+	align: right; 
+	width: 150px;
+	padding: 2px 20px;
+	background-color: #BA8847;
+	font-size: 15px;
+	text-align: center;
+	border-radius:4px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #E7E8E8;
+}
+.btn:hover{
+	background-color: #E0A455;
+}
+
 
 header {
 	width: 100%;
@@ -131,12 +148,13 @@ nav {
 nav ul {
 	list-style-type: none;
 	text-align:center;
+	color: #fff;
 }
 
 nav li {
 	display: inline-block;
 	font-family: "Kavivanar Regular";
-	color: #45899C;
+	color: #fff;
 	font-size: .7em;
 	font-weight:700;
 	text-transform: uppercase;
@@ -147,7 +165,7 @@ nav li {
 }
 
 nav li a:link {
-	color: #45899C;
+	color: #fff;
 }
 
 nav li a:visted {
