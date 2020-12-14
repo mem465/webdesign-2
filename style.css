@@ -143,18 +143,21 @@ header {
 nav {
 	float:right;
 	margin-top: 7px;
+	text-decoration: none;
 }
 
 nav ul {
 	list-style-type: none;
 	text-align:center;
 	color: #fff;
+	text-decoration: none;
 }
 
 nav li {
 	display: inline-block;
 	font-family: "Kavivanar Regular";
 	color: #fff;
+	text-decoration: none;
 	font-size: .7em;
 	font-weight:700;
 	text-transform: uppercase;
@@ -166,6 +169,7 @@ nav li {
 
 nav li a:link {
 	color: #fff;
+	text-decoration: none;
 }
 
 nav li a:visted {
@@ -357,10 +361,23 @@ textarea {
 	font-family: 'Kavivanar', cursive;
 }
 
+.sec-9 a{
+	font-size: 1em;
+	color: #45899C;
+	font-family: 'Kavivanar', cursive;
+	text-decoration: none;
+}
+
+.sec-9 a:hover {
+	color:#BA8847;
+	
+}
+
 .copyright{
 	width: 100%;
 	color: #7A5A2F;
 }
+
 .copyright p {
 	margin-top: 50px;
 	margin-bottom: 0;
@@ -376,6 +393,7 @@ textarea {
 	text-align: center;
 	margin: 20px 5px 0 15px;
 	color:#45899C;
+	text-decoration: none;
 }
 
 .copyright a:link {
@@ -385,16 +403,16 @@ textarea {
 
 .copyright a:visted {
 	color:#45899C;
-	text-decoration: none;
+	
 }
 .copyright a:hover {
 	color:#BA8847;
-	text-decoration: underline;
+	
 }
 
 .copyright a:active{
 	color: #7A5A2F;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 
