@@ -85,20 +85,20 @@ h4 {
 	color: #45899C;
 	text-align: center;
 	margin: 15px 0;
-	font-family: 'Kavivanar', cursive;
+	font-family: ''Kavivanar', cursive;'
 }
 
 h5 {
-	font-size: .85em;
+	font-size: 1em;
 	margin: 0 0 20px 0;
 	color: #E64919;
-	font-family: 'Kavivanar', cursive;
+	font-family: 'Shree Devanagari 714';
 }
 
 h6 {
 	font-size: 1em;
 	color: #F8F6F5;
-	font-family: 'Kavivanar', cursive;
+	font-family: 'Shree Devanagari 714';
 }
 
 .small-text {
@@ -127,7 +127,7 @@ h6 {
 header {
 	width: 100%;
 	background-color: #7A5A2F;
-	position:stick;
+	position:fixed;
 	top:0;
 	z-index: 1000;
 }
@@ -149,14 +149,14 @@ nav {
 nav ul {
 	list-style-type: none;
 	text-align:center;
-	color: #fff;
+	color: #E0A455;
 	text-decoration: none;
 }
 
 nav li {
 	display: inline-block;
 	font-family: "Kavivanar Regular";
-	color: #fff;
+	color: #E0A455;
 	text-decoration: none;
 	font-size: .7em;
 	font-weight:700;
@@ -168,7 +168,7 @@ nav li {
 }
 
 nav li a:link {
-	color: #fff;
+	color: #E0A455;
 	text-decoration: none;
 }
 
@@ -245,6 +245,7 @@ img{
 .sec-3 {
 	width: auto;
 	text-align: right;
+	padding: 30px 0 30px 0;
 	background-image:url("images/country-guitar.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -308,6 +309,7 @@ img{
 /*more information*/
 .sec-8 {
 	width: 100%;
+	padding: 30px 0 30px 0;
 	padding-bottom: 50px;
 	background-color: #FFFFFF;
 }
@@ -352,7 +354,7 @@ textarea {
 	margin-top:5px;
 	margin-bottom: 15px;
 	text-align: left;
-	color: #45899C;
+	color: #F8F6F5;
 }
 
 .sec-9 p{
@@ -363,7 +365,7 @@ textarea {
 
 .sec-9 a{
 	font-size: 1em;
-	color: #45899C;
+	color: #F8F6F5;
 	font-family: 'Kavivanar', cursive;
 	text-decoration: none;
 }
@@ -392,17 +394,17 @@ textarea {
 	font-size: 2em;
 	text-align: center;
 	margin: 20px 5px 0 15px;
-	color:#45899C;
+	color:#F8F6F5;
 	text-decoration: none;
 }
 
 .copyright a:link {
-	color: #45899C;
+	color: #F8F6F5;
 	text-decoration: none;
 }
 
 .copyright a:visted {
-	color:#45899C;
+	color:#F8F6F5;
 	
 }
 .copyright a:hover {
