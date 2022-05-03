@@ -167,20 +167,16 @@ nav li {
 	
 }
 
-nav li a:link {
+nav li a:link, nav li a:visited {
 	color: #E0A455;
 	text-decoration: none;
 }
 
-nav li a:visted {
-	color: #E0A455;
-}
 
-nav li a:hover {
-	color:#E64919;
-}
 
-nav li a:active {
+
+
+nav li a:active, nav li a:hover {
 	color: #E64919;
 }
 
